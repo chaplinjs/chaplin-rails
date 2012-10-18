@@ -17,10 +17,10 @@ This is a Hello World example application for [Chaplin.js](https://github.com/ch
 
 This example has a standard Chaplin MVC directory structure:
 
-- `coffee/models`
-- `coffee/views`
-- `coffee/controllers`
-- `coffee/libs`
+- `assets/javascripts/models`
+- `assets/javascripts/views`
+- `assets/javascripts/controllers`
+- `assets/javascripts/libs`
 
 All vendor libraries like jQuery and Backbone are located `js/vendor/`.
 
@@ -54,7 +54,7 @@ To ease the development, this repository also provides application-specific base
 - `assets/javascripts/models/base/collection.js.coffee`
 - `assets/javascripts/controllers/base/controller.js.coffee`
 
-Furthermore, `assets/javascripts/lib/support.js.coffee` and `coffee/lib/utils.js.coffee` demonstrate how to extend the feature testing and utility files of Chaplin.
+Furthermore, `assets/javascripts/lib/support.js.coffee` and `assets/javascripts/lib/utils.js.coffee` demonstrate how to extend the feature testing and utility files of Chaplin.
 
 Last but not least, this example uses a specific `Layout` class which can be found in `assets/javascripts/views/layout.js.coffee`.
 
