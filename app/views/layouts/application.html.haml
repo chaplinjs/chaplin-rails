@@ -1,0 +1,16 @@
+!!! 5
+%html(lang='en')
+  %head
+    %meta(charset='utf-8')
+    %title Chaplin Example
+    = csrf_meta_tags
+    = stylesheet_link_tag 'application', media: 'all'
+
+    /[if lt IE 9]
+      %script 'abbr article aside audio canvas details figcaption figure footer header hgroup mark meter nav output progress section summary time video'.replace(/\w+/g,function(n){document.createElement(n)})
+
+  %body
+
+    = yield
+
+    = requirejs_include_tag 'application'
