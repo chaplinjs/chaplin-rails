@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.10'
+gem 'rails', '3.2.11'
 
 gem 'sqlite3'
 #gem 'mysql2'
@@ -16,8 +16,8 @@ gem 'requirejs-rails', '0.9.0', :path => "vendor/gems/requirejs-rails-0.9.0"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
   #gem 'compass-rails'
   gem 'haml_coffee_assets'
   gem 'uglifier'
