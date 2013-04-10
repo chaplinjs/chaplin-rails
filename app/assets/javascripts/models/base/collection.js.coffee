@@ -1,6 +1,7 @@
 define [
   'chaplin'
 ], (Chaplin) ->
+  'use strict'
 
   class Collection extends Chaplin.Collection
     # Mixin a synchronization state machine
