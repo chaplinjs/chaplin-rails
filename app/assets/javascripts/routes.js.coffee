@@ -2,7 +2,7 @@ define ->
   'use strict'
 
   # The routes for the application. This module returns a function.
-  # `match` is match method of the Router
+  # `match` is the match method of the Chaplin.Router.
   (match) ->
 
-    match '', 'helloWorld#show'
+    match '', 'hello_world#show'
