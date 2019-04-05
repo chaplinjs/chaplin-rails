@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.16'
+gem 'rails', '3.2.22.5'
 
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.3.5'
+
 #gem 'mysql2'
 
 gem 'haml'
@@ -34,6 +35,3 @@ end
 
 # Deploy with Capistrano
 # gem 'capistrano'
-
-# To use debugger
-gem 'debugger'
